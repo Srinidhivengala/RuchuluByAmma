@@ -1,0 +1,28 @@
+.your-orders-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.order-card {
+  border: 1px solid #ccc;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  background: #fefefe;
+}
+
+.order-items {
+  margin-top: 0.8rem;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem 0;
+}
+
+.order-total {
+  margin-top: 1rem;
+  font-weight: bold;
+}

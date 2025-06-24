@@ -1,0 +1,112 @@
+.menu-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.menu-page h1 {
+  text-align: center;
+  color: #e63946;
+  margin-bottom: 2rem;
+  font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.menu-tabs button {
+  padding: 0.5rem 1.5rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.menu-tabs button.active {
+  border-bottom: 2px solid #e63946;
+  color: #e63946;
+  font-weight: 500;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.menu-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-info h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.item-info p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.price {
+  color: #e63946;
+  font-weight: 600;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-item-image {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.qty-controls button {
+  background-color: #ff8000;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.qty-controls span {
+  font-size: 18px;
+  min-width: 20px;
+  text-align: center;
+}
+

@@ -1,0 +1,69 @@
+/* -------------------- Navbar Container -------------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fffdf8;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Inter', sans-serif;
+}
+
+/* -------------------- Logo Styling -------------------- */
+.logo {
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive; /* You can use 'Amatic SC' or 'Dancing Script' if you want */
+  color: #f57c00; /* 🍊 Warm orange for full logo */
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* -------------------- Navigation Links -------------------- */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 100%;
+  background-color: #e53935;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+  transform: scaleX(1);
+}
+.signup-btn {
+  background-color: transparent;
+  border: 2px solid #f57c00;
+  color: #f57c00;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #f57c00;
+  color: #fff;
+}

@@ -1,0 +1,49 @@
+/* -------------------- Reset & Base -------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #fffaf3;
+  color: #333;
+}
+
+/* -------------------- Main Layout Wrapper -------------------- */
+.main-content {
+  min-height: calc(100vh - 120px); /* Navbar + Footer assumed 60px each */
+  padding: 2rem;
+}
+
+/* -------------------- Typography -------------------- */
+h1, h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* -------------------- Button Reset Styling (Global CTA Look) -------------------- */
+button,
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+html {
+  scroll-behavior: smooth;
+}
+
