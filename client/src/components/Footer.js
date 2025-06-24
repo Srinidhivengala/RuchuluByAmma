@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="footer-sections">
           <div className="footer-section">
             <h4>Contact Us</h4>
-            <p>📞 +91 9392727179</p>
-            <p>📧 srinidhivengala28@gmail.com</p>
+            <p>📞 XXXX </p>
+            <p>📧 sri@gmail.com</p>
             <p>⌚ 7:00 AM - 9:00 PM</p>
           </div>
 
