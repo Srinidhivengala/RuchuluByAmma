@@ -1,26 +1,39 @@
 # 🍽️ Ruchulu By Amma
 
-**Ruchulu By Amma** is a modern web application for ordering **healthy homemade millet-based food**, built with **React**, **Node.js**, and **MySQL**. It supports user registration, login, browsing menus, managing a cart, and placing orders.
+**Ruchulu By Amma** is a full-stack food ordering web application designed for homemade millet-based meals. It allows users to explore a curated menu, sign up, log in, and place orders—bringing the warmth of home-cooked food into a modern digital experience.
 
-🌍 **Live Demo:** [ruchulu-by-amma.vercel.app](https://ruchulu-by-amma.vercel.app)
-
----
-
-## ✨ Highlights
-
-✅ Responsive food ordering website  
-✅ User authentication system (signup & login)  
-✅ Shopping cart with quantity updates  
-✅ Orders saved securely in MySQL database  
-✅ Backend API built with Express.js  
-✅ Clean, retro-inspired design  
-✅ Deployed on Vercel (frontend)  
+🔗 **Live Site:** [https://ruchulu-by-amma.vercel.app](https://ruchulu-by-amma.vercel.app)
 
 ---
 
-## 🚀 Quick Start
+## 💡 Project Overview
 
-Clone the repository:
+| Feature              | Tech Stack                  |
+|----------------------|-----------------------------|
+| 👨‍🍳 Frontend         | React.js, React Router DOM   |
+| 🛠 Backend           | Node.js, Express.js         |
+| 🗃 Database         | MySQL                       |
+| 🎨 Styling           | Plain CSS (Custom, retro-inspired) |
+| 🔐 Authentication    | bcrypt, localStorage        |
+| ☁️ Deployment        | Vercel (Frontend), Localhost (Backend) |
+
+---
+
+## ✨ Key Features
+
+- 📋 User Signup & Login (with role-based access)
+- 🛒 Cart management with real-time total calculation
+- 📦 Orders stored with user reference
+- 🧾 Order history (future enhancement)
+- 🔐 Secure password hashing
+- 🌐 Clean URL navigation using React Router
+- ⚡ Instant deployment using Vercel
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Clone & Setup
 
 ```bash
 git clone https://github.com/srinidhivengala/RuchuluByAmma.git
